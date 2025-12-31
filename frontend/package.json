@@ -1,0 +1,44 @@
+{
+  "name": "enterprise-smart-ims",
+  "version": "1.0.0",
+  "description": "Enterprise Smart Inventory Management System",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "lucide-react": "^0.294.0",
+    "recharts": "^2.10.3",
+    "axios": "^1.6.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "postbuild": "copy public\\_redirects build\\_redirects",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+

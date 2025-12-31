@@ -1,0 +1,27 @@
+.app {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f1f5f9;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 0;
+  padding-top: 0;
+  transition: margin-left 0.3s;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 256px; /* Sidebar width */
+    padding-top: 0;
+  }
+}
+
+/* Ensure proper spacing on mobile */
+@media (max-width: 767px) {
+  .main-content {
+    padding-top: 60px; /* Space for mobile menu button */
+  }
+}
+
